@@ -8,6 +8,8 @@ public class tests {
 		
 		loops.Marks(70);
 		loops.Order(9, 50, 4);
+		loops.PrintTable(9);
+		loops.PrintAsterisk(6);
 
 	}
 
