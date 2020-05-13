@@ -49,4 +49,30 @@ public class LoopsConditionals {
 			System.out.println("");
 		}
 	}
+	
+	public void tree(int row) {
+		System.out.println("------------------");
+		System.out.println("Print a Tree");
+		
+		for(int tall = 1; tall <= row; tall ++ ) {
+		for(int withe = 1; withe <= row-tall; withe++) {
+			System.out.print(" ");
+		}
+		for(int asterisk = 1; asterisk <= (tall * 2) - 1; asterisk ++) {
+			System.out.print("*");
+		}
+		System.out.print("\n");
+		}
+		}
 }
+
+
+
+
+
+
+
+
+
+
+
